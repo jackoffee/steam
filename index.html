@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0094ff" />
+    <meta name="copyright" content="Jackoffee 2024" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta property="og:image" content="assets/image/preview.png" />
+    <meta property="og:title" content="Steam (Redesign)" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/image/logo-steam.svg"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/image/logo-steam.svg" />
+    <link rel="apple-touch-icon" href="assets/image/logo-steam.svg" />
+    <title>Steam (Redesign)</title>
+  </head>
+  <body>
+    <header id="s-menu">
+      <nav>
+        <img src="assets/image/logo-steam.svg" alt="Logo da Steam" />
+        <ul>
+          <li><a href="#">Loja</a></li>
+          <li><a href="#">Biblioteca</a></li>
+          <li><a href="#">Comunidade</a></li>
+          <li><a href="#">Perfil</a></li>
+        </ul>
+      </nav>
+      <div>
+        <div id="notifications">
+          <a href="#" id="bell">
+            <div></div>
+            <img src="assets/image/icons/bell.svg" alt="Ícone sino" />
+          </a>
+
+          <a href="#">
+            <img
+              src="assets/image/icons/message-circle.svg"
+              alt="Ícone mensagem"
+            />
+          </a>
+        </div>
+        <a href="#">
+          <div id="profile">
+            <img src="assets/image/profile.png" alt="Foto de perfil" />
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <header id="s-carrossel">
+        <article>
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+              <input type="radio" name="radio-btn" id="radio4" />
+
+              <div class="slide banner-1 first">
+                <div class="bg-cover-dark"></div>
+                <div class="grid-layout-banner">
+                  <img
+                    src="assets/image/logo-red-dead.png"
+                    alt="Logo Red Dead"
+                  />
+                  <p>
+                    Estados Unidos, 1899. O fim da era do velho oeste começou, e
+                    as autoridades estão caçando as últimas gangues de fora da
+                    lei que restam. Os que não se rendem, nem sucumbem, são
+                    mortos.
+                  </p>
+                  <a href="#"><button>compre agora</button></a>
+                </div>
+              </div>
+
+              <div class="slide banner-2">
+                <div class="bg-cover-dark"></div>
+                <div class="grid-layout-banner">
+                  <img
+                    src="assets/image/dead-by-daylight.png"
+                    alt="Logo Dead by Daylight"
+                  />
+                  <p>
+                    Dead by Daylight é um jogo eletrônico multijogador online
+                    assimétrico de survival horror desenvolvido pela Behaviour
+                    Interactive.
+                  </p>
+                  <a href="#"><button>saiba mais</button></a>
+                </div>
+              </div>
+
+              <div class="slide banner-3">
+                <div class="bg-cover-dark"></div>
+                <div class="grid-layout-banner">
+                  <img
+                    src="assets/image/the-last-of-us.png"
+                    alt="Logo The Last of Us"
+                  />
+                  <p>
+                    The Last of Us é uma franquia situada em um mundo
+                    pós-apocalíptico, com seres humanos hostis e criaturas
+                    canibais infectadas por uma mutação do fungo cordyceps.
+                  </p>
+                  <a href="#"><button>assistir trailer</button></a>
+                </div>
+              </div>
+
+              <div class="slide banner-4">
+                <div class="bg-cover-dark"></div>
+                <div class="grid-layout-banner">
+                  <img
+                    src="assets/image/assassins-creed.webp"
+                    alt="Logo Assassin's Creed"
+                  />
+                  <p>
+                    A série de jogos Assassin's Creed, ao contrário da violência
+                    do conflito entre os grupos do game (assassinos e
+                    templários), mostra a evolução da sociedade humana como
+                    cenário dos jogos.
+                  </p>
+                  <a href="#"><button>comprar na pré-venda</button></a>
+                </div>
+              </div>
+
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+            </div>
+
+            <div class="manual-navigation">
+              <label for="radio1"></label>
+              <label for="radio2"></label>
+              <label for="radio3"></label>
+              <label for="radio4"></label>
+            </div>
+          </div>
+        </article>
+      </header>
+
+      <section id="s-filter">
+        <div class="grid-layout">
+          <nav id="menu-filter">
+            <ul>
+              <li><a href="#">Novidades e tendências</a></li>
+              <li><a href="#">Categorias</a></li>
+              <li><a href="#">Loja de pontos</a></li>
+              <li><a href="#">Notícias</a></li>
+              <li><a href="#">Laboratório</a></li>
+            </ul>
+          </nav>
+
+          <div id="container-input">
+            <input type="text" placeholder="Buscar jogo" />
+          </div>
+
+          <div id="cards-filter">
+            <div>
+              <div></div>
+              <img src="assets/image/logo-farcry.svg" alt="Logo Farcry" />
+            </div>
+
+            <div>
+              <div></div>
+              <img src="assets/image/logo-forza.svg" alt="Logo Forza" />
+            </div>
+
+            <div>
+              <div></div>
+              <img src="assets/image/logo-fifa.svg" alt="Logo Fifa" />
+            </div>
+
+            <div>
+              <div></div>
+              <img src="assets/image/logo-minecraft.svg" alt="Logo Minecraft" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="s-navigation">
+        <div class="grid-layout">
+          <h2>Navegar pela Steam</h2>
+          <nav>
+            <ul>
+              <a href="#"><li>Lançamentos</li></a>
+              <a href="#"><li>Ofertas</li></a>
+              <a href="#"><li>Jogos gratuitos</li></a>
+              <a href="#"><li>Mais vendidos</li></a>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section id="s-category">
+        <div class="grid-layout">
+          <h2>Explore por categoria</h2>
+          <div id="category-list">
+            <article>
+              <div>
+                <div></div>
+                <img src="assets/image/5.png" alt="Capa Assassin's Creed" />
+              </div>
+              <h3>Assassin's Creed Valhalla</h3>
+              <span>
+                <p id="category-value">-10%</p>
+                <p id="category-value-old">R$ 100,00</p>
+                <p>R$ 90,00</p>
+              </span>
+            </article>
+
+            <article>
+              <div>
+                <div></div>
+                <img src="assets/image/6.png" alt="Capa GTA5" />
+              </div>
+              <h3>Grand Theft Auto V</h3>
+              <span>
+                <p id="category-value">-10%</p>
+                <p id="category-value-old">R$ 100,00</p>
+                <p>R$ 90,00</p>
+              </span>
+            </article>
+
+            <article>
+              <div>
+                <div></div>
+                <img src="assets/image/7.png" alt="Capa Minecraft" />
+              </div>
+              <h3>Minecraft</h3>
+              <span>
+                <p id="category-value">-10%</p>
+                <p id="category-value-old">R$ 100,00</p>
+                <p>R$ 90,00</p>
+              </span>
+            </article>
+
+            <article>
+              <div>
+                <div></div>
+                <img src="assets/image/8.png" alt="Capa Detroit Become Human" />
+              </div>
+              <h3>Detroit Become Human</h3>
+              <span>
+                <p id="category-value">-10%</p>
+                <p id="category-value-old">R$ 100,00</p>
+                <p>R$ 90,00</p>
+              </span>
+            </article>
+
+            <article>
+              <div>
+                <div></div>
+                <img src="assets/image/9.png" alt="Capa Fall Guys" />
+              </div>
+              <h3>Fall Guys</h3>
+              <span>
+                <p id="category-value">-10%</p>
+                <p id="category-value-old">R$ 100,00</p>
+                <p>R$ 90,00</p>
+              </span>
+            </article>
+
+            <article>
+              <div>
+                <div></div>
+                <img src="assets/image/10.png" alt="Capa God of War" />
+              </div>
+              <h3>God of War</h3>
+              <span>
+                <p id="category-value">-10%</p>
+                <p id="category-value-old">R$ 100,00</p>
+                <p>R$ 90,00</p>
+              </span>
+            </article>
+
+            <article>
+              <div>
+                <div></div>
+                <img src="assets/image/11.png" alt="Capa Cyberpunk 2077" />
+              </div>
+              <h3>Cyberpunk 2077</h3>
+              <span>
+                <p id="category-value">-10%</p>
+                <p id="category-value-old">R$ 100,00</p>
+                <p>R$ 90,00</p>
+              </span>
+            </article>
+
+            <article>
+              <div>
+                <div></div>
+                <img src="assets/image/12.png" alt="Capa Ghostwire: Tokyo" />
+              </div>
+              <h3>Ghostwire: Tokyo</h3>
+              <span>
+                <p id="category-value">-10%</p>
+                <p id="category-value-old">R$ 100,00</p>
+                <p>R$ 90,00</p>
+              </span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="s-games-free">
+        <div class="grid-layout">
+          <h2>Jogos gratuitos</h2>
+          <div class="layout-games-free">
+            <article>
+              <div class="container-image">
+                <img src="assets/image/13.png" alt="Capa Stardew Valley" />
+              </div>
+
+              <div class="container-content">
+                <h3>Stardew Valley</h3>
+                <p>Oferta válida até 19 de abr. às 14h</p>
+
+                <span>
+                  <p id="category-value">-100%</p>
+                  <p id="category-value-old">R$ 100,00</p>
+                  <p>R$ 0,00</p>
+                </span>
+              </div>
+            </article>
+
+            <article>
+              <div class="container-image">
+                <img src="assets/image/14.png" alt="Capa Hogwarts Legacy" />
+              </div>
+
+              <div class="container-content">
+                <h3>Hogwarts Legacy</h3>
+                <p>Oferta válida até 19 de abr. às 14h</p>
+
+                <span>
+                  <p id="category-value">-100%</p>
+                  <p id="category-value-old">R$ 100,00</p>
+                  <p>R$ 0,00</p>
+                </span>
+              </div>
+            </article>
+
+            <div>
+              <article>
+                <div class="container-image">
+                  <img src="assets/image/15.png" alt="Capa Stay" />
+                </div>
+                <div class="container-content">
+                  <h3>Oferta do dia!</h3>
+
+                  <span>
+                    <p id="category-value">-100%</p>
+                    <p>R$ 0,00</p>
+                  </span>
+                </div>
+              </article>
+
+              <article>
+                <div class="container-image">
+                  <img src="assets/image/16.png" alt="Capa Raft" />
+                </div>
+
+                <div class="container-content">
+                  <h3>Oferta do dia!</h3>
+
+                  <span>
+                    <p id="category-value">-100%</p>
+                    <p>R$ 0,00</p>
+                  </span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="assets/image/logo-steam.svg" alt="Logo da Steam" />
+    </footer>
+
+    <script type="module" src="assets/js/index.js"></script>
+  </body>
+
+</html>
